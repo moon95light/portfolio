@@ -58,15 +58,7 @@ export default new Router({
         footer: AppFooter
       }
     },
-    {
-      path: "/portfolio",
-      name: "portfolio",
-      components: {
-        header: AppHeader,
-        default: Portfolio,
-        footer: AppFooter
-      }
-    }
+    
   ],
   scrollBehavior: to => {
     if (to.hash) {
